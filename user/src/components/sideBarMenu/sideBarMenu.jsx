@@ -115,10 +115,10 @@ const SidebarMenu = () => {
             </li>
 
             {/* PARAMÈTRES */}
-            <li className="menu-item" onClick={() => handleNavigate("/settings")}>
+            {/* <li className="menu-item" onClick={() => handleNavigate("/settings")}>
               <FaCog className="menu-icon" />
               <span>Paramètres</span>
-            </li>
+            </li> */}
 
             {/* DECONNEXION */}
             <li className="menu-item logout" onClick={handleLogout}>
@@ -129,7 +129,7 @@ const SidebarMenu = () => {
           </ul>
         </div>
       </div>
-    </>
+    </> 
   );
 };
 

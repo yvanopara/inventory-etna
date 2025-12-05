@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export const connectDB = async () => {
     try {
-        await mongoose.connect("mongodb+srv://yvanopara:0000000000@cluster0.dxck4ha.mongodb.net/inventory?retryWrites=true&w=majority&appName=Cluster0", {
+        await mongoose.connect("mongodb+srv://yvanopara:00000000@cluster0.isd9rtp.mongodb.net/inventory", {
             useNewUrlParser: true, // Optional, adds compatibility for MongoDB driver
             useUnifiedTopology: true, // Optional, removes deprecated server selection warnings
         });

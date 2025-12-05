@@ -37,9 +37,9 @@ app.use("/telegram", telegramRoute); //hummm
 app.use(cors({
   origin: [
     "http://localhost:3000", // Ton frontend local
-    "https://inventory-qd-in.onrender.com", // admin link 
+    "https://inventory-etna.onrender.com", // admin link 
     "https://inventory2-uexd.onrender.com",  // backend
-    "https://inventory-user-h4bt.onrender.com", //user
+    "https://user-anqx.onrender.com", //user
 
   ],
   credentials: true // si tu utilises cookies ou sessions
